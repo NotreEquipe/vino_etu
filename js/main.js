@@ -10,8 +10,10 @@
 
 //const BaseURL = "https://jmartel.webdev.cmaisonneuve.qc.ca/n61/vino/";
 const BaseURL = document.baseURI;
+
 console.log(BaseURL);
 window.addEventListener('load', function() {
+    console.log("testPascal);
     console.log("load");
     document.querySelectorAll(".btnBoire").forEach(function(element){
         console.log(element);
