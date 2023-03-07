@@ -12,6 +12,7 @@
 const BaseURL = document.baseURI;
 console.log(BaseURL);
 window.addEventListener('load', function() {
+    console.log("test");
     console.log("load");
     document.querySelectorAll(".btnBoire").forEach(function(element){
         console.log(element);
